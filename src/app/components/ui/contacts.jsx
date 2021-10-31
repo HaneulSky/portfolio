@@ -15,10 +15,17 @@ const Contacts = () => {
                     </a>
                 </li>
                 <li className="list-group-item  border border-info">
-                    <i className="bi bi-envelope"></i> ko20tatiana@yandex.ru
+                    <i className="bi bi-envelope"></i>{" "}
+                    <a
+                        href="mailto:ko20tatiana@yandex.ru"
+                        role="button"
+                        className="btn btn-light "
+                    >
+                        ko20tatiana@yandex.ru
+                    </a>
                 </li>
                 <li className="list-group-item  border border-info">
-                    <i className="bi bi-telephone"></i> 89213884024
+                    <i className="bi bi-telephone"></i> 8(921)388-40-24
                 </li>
                 <li className="list-group-item  border border-info">
                     <a

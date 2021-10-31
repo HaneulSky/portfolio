@@ -15,7 +15,7 @@ const About = () => {
                     {" "}
                     <h3>Об авторе</h3>
                     <p className="fst-normal">
-                        Привет! Меня зовут Татьяна. Я начинающий фронтенд
+                        Приветствую! Меня зовут Татьяна. Я начинающий фронтенд
                         разработчик.
                     </p>
                     <p className="fst-normal">
@@ -41,18 +41,6 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <figure>
-                <blockquote className="blockquote">
-                    <p>
-                        Многие жизненные неудачи случались с людьми, которые не
-                        осознавали, насколько близки они были к успеху, когда
-                        сдались.
-                    </p>
-                </blockquote>
-                <figcaption className="blockquote-footer">
-                    Томас А. Эдисон
-                </figcaption>
-            </figure>
         </div>
     );
 };
