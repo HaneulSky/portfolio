@@ -1,6 +1,5 @@
 import React from "react";
 import myphoto from "../images/myphoto.jpg";
-import Contacts from "../ui/contacts";
 
 const About = () => {
     return (
@@ -9,17 +8,17 @@ const About = () => {
             <div className="d-flex mb-4">
                 <img
                     src={myphoto}
-                    className="img-thumbnail rounded-circle w-25 flex-shrink-0"
+                    className="img-thumbnail rounded-circle w-25 h-25 flex-shrink-0"
                     alt="Мое фото"
                 />
                 <div className="flex-grow-1 ms-3">
                     {" "}
                     <h3>Об авторе</h3>
-                    <p className="font-monospace">
+                    <p className="fst-normal">
                         Привет! Меня зовут Татьяна. Я начинающий фронтенд
                         разработчик.
                     </p>
-                    <p className="font-monospace">
+                    <p className="fst-normal">
                         Несколько фактов обо мне:
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
@@ -42,7 +41,18 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <Contacts />
+            <figure>
+                <blockquote className="blockquote">
+                    <p>
+                        Многие жизненные неудачи случались с людьми, которые не
+                        осознавали, насколько близки они были к успеху, когда
+                        сдались.
+                    </p>
+                </blockquote>
+                <figcaption className="blockquote-footer">
+                    Томас А. Эдисон
+                </figcaption>
+            </figure>
         </div>
     );
 };

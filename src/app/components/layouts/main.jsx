@@ -1,13 +1,13 @@
 import React from "react";
 import About from "./about";
-import Projects from "./projects";
+import Contacts from "../ui/contacts";
 
 const Main = () => {
     return (
-        <>
+        <div className="pt-4">
             <About />
-            <Projects />
-        </>
+            <Contacts />
+        </div>
     );
 };
 
