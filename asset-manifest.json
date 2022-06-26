@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/portfolio/static/js/main.9a2380bc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9a2380bc.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7446622f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7446622f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2c20b92c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2c20b92c.js.map",
     "static/css/2.c9383be8.chunk.css": "/portfolio/static/css/2.c9383be8.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.c9383be8.chunk.css.map": "/portfolio/static/css/2.c9383be8.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/portfolio/static/css/main.6dea0f05.chunk.css.map",
     "static/js/2.c5b7aedd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c5b7aedd.chunk.js.LICENSE.txt",
+    "static/media/blog.9820fcd9.png": "/portfolio/static/media/blog.9820fcd9.png",
     "static/media/bootstrap-icons.css": "/portfolio/static/media/bootstrap-icons.d0ec932c.woff2",
     "static/media/fast-company.fa1b49d9.jpg": "/portfolio/static/media/fast-company.fa1b49d9.jpg",
     "static/media/mesto.8c2b260c.jpg": "/portfolio/static/media/mesto.8c2b260c.jpg",
@@ -25,6 +26,6 @@
     "static/css/2.c9383be8.chunk.css",
     "static/js/2.c5b7aedd.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.9a2380bc.chunk.js"
+    "static/js/main.7446622f.chunk.js"
   ]
 }
