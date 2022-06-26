@@ -3,11 +3,31 @@ import mesto from "../images/mesto.jpg";
 import travels from "../images/travels.jpg";
 import fastCompany from "../images/fast-company.jpg";
 import ProjectCard from "../ui/projectCard";
+import blog from "../images/blog.png";
 
 const Projects = () => {
     return (
         <div className="container mb-4">
             <div className="card-group">
+                <ProjectCard
+                    image={blog}
+                    alt="превью проекта my blog"
+                    description="пока пустота"
+                    link="https://github.com/HaneulSky/jfd-blog-client"
+                    page="https://fanciful-meerkat-a0e71a.netlify.app/"
+                >
+                    <p>
+                        Дипломный проект курсов Result school. Проект называется
+                        &quot;Мой блог&quot;. Присутствует регистрация/вход пользователя,
+                        возможность добавлять, удалять и редактировать статьи.
+                        Все данные хранятся в базе данных MongoDB.
+                    </p>
+                    <p>P.S. Проект в стадии разработки!</p>
+                    <p>
+                        Стек технологий: ReactJS, Redux, NodeJS, MongoDB,
+                        MaterialUI, Bootstrap, Heroku/Netlify
+                    </p>
+                </ProjectCard>
                 <ProjectCard
                     image={fastCompany}
                     alt="превью проекта fast-company"

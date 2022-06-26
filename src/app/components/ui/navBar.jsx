@@ -10,7 +10,7 @@ const NavBar = () => {
             <ul className="nav navbar navbar-light">
                 {" "}
                 <li className="nav-item">
-                    <Link className="nav-link" to="/">
+                    <Link className="nav-link" to="/portfolio">
                         Обо мне
                     </Link>
                 </li>
