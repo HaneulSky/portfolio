@@ -1,7 +1,7 @@
 import React from "react";
 import mesto from "../images/mesto.jpg";
 import travels from "../images/travels.jpg";
-import fastCompany from "../images/fast-company.jpg";
+import newsExplorer from "../images/news-explorer.jpg";
 import ProjectCard from "../ui/projectCard";
 import blog from "../images/blog.png";
 
@@ -22,31 +22,30 @@ const Projects = () => {
                         возможность добавлять, удалять и редактировать статьи.
                         Все данные хранятся в базе данных MongoDB.
                     </p>
-                    <p>P.S. Проект в стадии разработки!</p>
+                    <p>P.S. Проект в стадии разработки! В планах: реализовать адаптив, добавить редактор текста, реализовать добавление картинок и видео.</p>
                     <p>
                         Стек технологий: ReactJS, Redux, NodeJS, MongoDB,
                         MaterialUI, Bootstrap, Heroku/Netlify
                     </p>
                 </ProjectCard>
                 <ProjectCard
-                    image={fastCompany}
-                    alt="превью проекта fast-company"
+                    image={newsExplorer}
+                    alt="превью проекта news explorer"
                     description="пока пустота"
-                    link="https://github.com/HaneulSky/fast-company/"
-                    page="https://haneulsky.github.io/fast-company/"
+                    link="https://github.com/HaneulSky/finalproject"
+                    page="https://haneulsky.github.io/finalproject/"
                 >
                     <p>
-                        Сервис, позволяющий найти компанию (учебный проект на
-                        реакте). Список пользователей получается из fake api,
-                        есть фильтрация по профессиям, настроена сортировка по
-                        всем столбцам кроме профессий. У каждого пользователя
-                        есть отдельная страница, есть возможность
-                        отредактировать пользователя, добавить комментарий.
-                        Также присутствуют формы входа/регистрации.
+                        Сервис по поиску новостей. Реализован поиск статей по ключевому слову за последние 7 дней.
+                        Максимальное число статей - 100. Реализована кнопка &quot;показать еще&quot;, которая добавляет по 3 новости.
+                        Есть страница статистики, на которой показано количество статей по ключевому слову за каждый день за последнюю неделю.
+                        На странице &quot;О проекте&quot; есть блок с коммитами в репозитории, где лежит данный проект.
+                        Слайдер реализован с помощью библиотеки Swiper. Для коммитов использован Github rest api.
+                        Также сделан адаптив под разные размеры экранов, примен БЭМ.
                     </p>
                     <p>P.S. Проект в стадии разработки!</p>
                     <p>
-                        Стек технологий: HTML, CSS, JS, React.JS, Webpack, GIT
+                        Стек технологий: HTML, CSS, JS, Webpack, GIT
                     </p>
                 </ProjectCard>
                 <ProjectCard

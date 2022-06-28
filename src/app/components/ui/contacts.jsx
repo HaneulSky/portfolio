@@ -2,8 +2,8 @@ import React from "react";
 
 const Contacts = () => {
     return (
-        <div className="container d-flex flex-column justify-content-center">
-            <ul className="list-group list-group-horizontal rounded m-auto">
+        <div className="container d-flex flex-column justify-content-center flex-wrap">
+            <ul className="list-group list-group-horizontal rounded m-auto flex-wrap">
                 <li className="list-group-item border border-info">
                     <a href="https://github.com/HaneulSky">
                         <i className="bi bi-github"></i>
@@ -29,7 +29,7 @@ const Contacts = () => {
                 </li>
                 <li className="list-group-item  border border-info">
                     <a
-                        href="https://drive.google.com/file/d/1XG6DFFAscOX7GVtfcdKMz2zRGOq9Ibsg/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1vKcGXVWSyVItrNdRmxe33-dJ2DtxaKYN/view?usp=sharing"
                         role="button"
                         className="btn btn-light "
                     >
