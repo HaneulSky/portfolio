@@ -6,12 +6,12 @@ const Contacts = () => {
             <ul className="list-group list-group-horizontal rounded m-auto flex-wrap">
                 <li className="list-group-item border border-info">
                     <a href="https://github.com/HaneulSky">
-                        <i className="bi bi-github"></i>
+                        <i className="bi bi-github" style={{ fontSize: 1.5 + "rem" }}></i>
                     </a>
                 </li>
                 <li className="list-group-item  border border-info">
                     <a href="https://t.me/kotatiana">
-                        <i className="bi bi-telegram"></i>
+                        <i className="bi bi-telegram" style={{ fontSize: 1.5 + "rem" }}></i>
                     </a>
                 </li>
                 <li className="list-group-item  border border-info">
@@ -25,7 +25,7 @@ const Contacts = () => {
                     </a>
                 </li>
                 <li className="list-group-item  border border-info">
-                    <i className="bi bi-telephone"></i> 8(921)388-40-24
+                    <i className="bi bi-telephone"></i> <i className="bi bi-whatsapp"></i>  8(921)388-40-24
                 </li>
                 <li className="list-group-item  border border-info">
                     <a
