@@ -14,12 +14,13 @@ const About = () => {
                 <div className="flex-grow-1 ms-3">
                     {" "}
                     <h3>Об авторе</h3>
-                    <p className="fst-normal">
+                    <p className="fst-normal" style={{ fontSize: 1 + "rem" }}>
                         Приветствую! Меня зовут Татьяна. Я начинающий фронтенд
                         разработчик.
                     </p>
                     <p className="fst-normal">
                         Несколько фактов обо мне:
+                    </p>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <i className="bi bi-house-door"></i> Живу в
@@ -38,7 +39,7 @@ const About = () => {
                                 Корейским и Английским
                             </li>
                         </ul>
-                    </p>
+
                     <p className="fst-normal">
                         В последние годы я работала по другой специальности. Я решила сменить профессию,
                         потому что считаю, что работа должна приносить удовольствие.

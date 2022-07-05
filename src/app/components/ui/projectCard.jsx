@@ -6,7 +6,7 @@ const ProjectCard = ({ image, alt, children, link, page }) => {
         <div className="card shadow" style={{ width: 50 + "%" }}>
             <img src={image} className="card-img-top" alt={alt} style={{ maxWidth: 100 + "%", height: 150 + "px" }} />
             <div className="card-body d-flex flex-column">
-                <p className="card-text align-self-start">{children}</p>
+                <div className="card-text align-self-start" style={{ fontSize: 1 + "rem" }}>{children}</div>
                 <div className="align-self-end mt-auto">
                     <a href={page} title="Посмотреть сайт">
                         <i className="bi bi-box-arrow-up-left" style={{ fontSize: 30 + "px" }}></i>
@@ -23,7 +23,7 @@ const ProjectCard = ({ image, alt, children, link, page }) => {
 ProjectCard.propTypes = {
     image: PropTypes.string,
     alt: PropTypes.string,
-    children: PropTypes.string,
+    children: PropTypes.array,
     link: PropTypes.string,
     page: PropTypes.string
 };
