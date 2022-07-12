@@ -1,0 +1,12 @@
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.contact{
+   border: #0dcaf0 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0 0 6px #0a53be;
+}

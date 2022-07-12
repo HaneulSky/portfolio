@@ -32,7 +32,7 @@ const About = () => {
                             </li>
                             <li className="list-group-item">
                                 <i className="bi bi-heart"></i> Люблю книги,
-                                музыку и Реакт
+                                музыку и Фронтенд
                             </li>
                             <li className="list-group-item">
                                 <i className="bi bi-people"></i> Владею

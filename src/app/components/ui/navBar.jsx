@@ -5,9 +5,9 @@ const NavBar = () => {
     return (
         <div
             className="container shadow mb-4"
-            style={{ backgroundColor: "white", opacity: 0.5 }}
+            style={{ backgroundColor: "white", opacity: 0.8 }}
         >
-            <ul className="nav navbar navbar-light">
+            <ul className="nav navbar navbar-light ">
                 {" "}
                 <li className="nav-item">
                     <Link className="nav-link" to="/portfolio">
@@ -17,11 +17,6 @@ const NavBar = () => {
                 <li className="nav-item">
                     <Link className="nav-link" to="/projects">
                         Мои проекты
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" to="/contacts">
-                        Контакты
                     </Link>
                 </li>
             </ul>

@@ -2,7 +2,7 @@ import React from "react";
 import mesto from "../images/mesto.jpg";
 import travels from "../images/travels.jpg";
 import newsExplorer from "../images/news-explorer.jpg";
-import ProjectCard from "../ui/projectCard";
+import ProjectCard from "../ui/projectCard/projectCard";
 import blog from "../images/blog.png";
 
 const Projects = () => {

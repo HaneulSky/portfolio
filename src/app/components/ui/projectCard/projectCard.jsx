@@ -1,12 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import projectCardStyles from "./projectCard.module.css";
+console.log(projectCardStyles.text);
 
 const ProjectCard = ({ image, alt, children, link, page }) => {
     return (
         <div className="card shadow" style={{ width: 50 + "%" }}>
             <img src={image} className="card-img-top" alt={alt} style={{ maxWidth: 100 + "%", height: 150 + "px" }} />
             <div className="card-body d-flex flex-column">
-                <div className="card-text align-self-start" style={{ fontSize: 1 + "rem" }}>{children}</div>
+                <div className= {projectCardStyles.text}>{children}</div>
                 <div className="align-self-end mt-auto">
                     <a href={page} title="Посмотреть сайт">
                         <i className="bi bi-box-arrow-up-left" style={{ fontSize: 30 + "px" }}></i>

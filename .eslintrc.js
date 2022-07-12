@@ -19,6 +19,7 @@ module.exports = {
             "error",
             { anonymous: "always", named: "never" }
         ],
+        "space-infix-ops": ["error", { "int32Hint": true }],
         quotes: ["error", "double", { allowTemplateLiterals: true }],
         "multiline-ternary": ["off", "always-multiline"]
     }
