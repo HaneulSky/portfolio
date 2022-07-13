@@ -1,0 +1,15 @@
+.photo{
+    width: 25%;
+    height: 25%;
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .photo{
+        margin: auto;
+        width: 70%;
+        height: 70%;
+    }
+}

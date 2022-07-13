@@ -4,8 +4,9 @@ import projectCardStyles from "./projectCard.module.css";
 console.log(projectCardStyles.text);
 
 const ProjectCard = ({ image, alt, children, link, page }) => {
+    const cardClasses = `card shadow ${projectCardStyles.card}`;
     return (
-        <div className="card shadow" style={{ width: 50 + "%" }}>
+        <div className={cardClasses}>
             <img src={image} className="card-img-top" alt={alt} style={{ maxWidth: 100 + "%", height: 150 + "px" }} />
             <div className="card-body d-flex flex-column">
                 <div className= {projectCardStyles.text}>{children}</div>

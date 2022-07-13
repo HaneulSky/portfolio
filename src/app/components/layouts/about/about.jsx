@@ -1,14 +1,17 @@
 import React from "react";
-import myphoto from "../images/myphoto.jpg";
+import myphoto from "../../images/myphoto.jpg";
+import aboutStyles from "./about.module.css";
 
 const About = () => {
+    const photoStyles = `rounded-circle flex-shrink-0 ${aboutStyles.photo}`;
+    const containerStyles = `d-flex mb-4 ${aboutStyles.container}`;
     return (
         <div className="container h-100 mb-4">
             {" "}
-            <div className="d-flex mb-4">
+            <div className={containerStyles}>
                 <img
                     src={myphoto}
-                    className="img-thumbnail rounded-circle w-25 h-25 flex-shrink-0"
+                    className={photoStyles}
                     alt="Мое фото"
                 />
                 <div className="flex-grow-1 ms-3">
