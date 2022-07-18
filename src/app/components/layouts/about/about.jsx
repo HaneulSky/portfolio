@@ -5,6 +5,8 @@ import aboutStyles from "./about.module.css";
 const About = () => {
     const photoStyles = `rounded-circle flex-shrink-0 ${aboutStyles.photo}`;
     const containerStyles = `d-flex mb-4 ${aboutStyles.container}`;
+    const stacklItemStyles = `badge rounded-pill bg-success ${aboutStyles.item}`;
+    const stack = ["HTML5", "CSS3", "БЭМ", "JavaScript(ES6, ES5)", "React", "Redux", "Bootstrap", "MaterialUI", "MongoDB", "Webpack", "GIT", "NodeJs"];
     return (
         <div className="container h-100 mb-4">
             {" "}
@@ -39,9 +41,16 @@ const About = () => {
                             </li>
                             <li className="list-group-item">
                                 <i className="bi bi-people"></i> Владею
-                                Корейским и Английским
+                                Корейским(TOPIK II) и Английским(A2)
                             </li>
                         </ul>
+
+                    <div className={aboutStyles.stack}>
+                        <h5>Мой стэк:</h5>
+                        {stack.map((item) => (
+                            <span className={stacklItemStyles} key={item}>{item}</span>
+                        ))}
+                    </div>
 
                     <p className="fst-normal">
                         В последние годы я работала по другой специальности. Я решила сменить профессию,
