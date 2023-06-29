@@ -6,65 +6,81 @@ const About = () => {
     const photoStyles = `rounded-circle flex-shrink-0 ${aboutStyles.photo}`;
     const containerStyles = `d-flex mb-4 ${aboutStyles.container}`;
     const stacklItemStyles = `badge rounded-pill bg-success ${aboutStyles.item}`;
-    const stack = ["HTML5", "CSS3", "БЭМ", "JavaScript(ES6, ES5)", "React", "Redux", "Bootstrap", "MaterialUI", "MongoDB", "Webpack", "GIT", "NodeJs"];
+    const stack = [
+        "HTML5",
+        "CSS3",
+        "TypeScript",
+        "JavaScript(ES6, ES5)",
+        "Vue",
+        "Vuex",
+        "React",
+        "Redux",
+        "БЭМ",
+        "Bootstrap",
+        "MaterialUI",
+        "MongoDB",
+        "Webpack",
+        "GIT",
+        "NodeJs"
+    ];
     return (
         <div className="container h-100 mb-4">
             {" "}
             <div className={containerStyles}>
-                <img
-                    src={myphoto}
-                    className={photoStyles}
-                    alt="Мое фото"
-                />
+                <img src={myphoto} className={photoStyles} alt="Мое фото" />
                 <div className="flex-grow-1 ms-3">
                     {" "}
                     <h3>Об авторе</h3>
                     <p className="fst-normal" style={{ fontSize: 1 + "rem" }}>
-                        Приветствую! Меня зовут Татьяна. Я начинающий фронтенд
-                        разработчик.
+                        Приветствую! Меня зовут Татьяна. Я фронтенд разработчик.
                     </p>
-                    <p className="fst-normal">
-                        Несколько фактов обо мне:
-                    </p>
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item">
-                                <i className="bi bi-house-door"></i> Живу в
-                                Санкт-Петербурге
-                            </li>
-                            <li className="list-group-item">
-                                <i className="bi bi-lightbulb"></i> Учусь
-                                фронтенду
-                            </li>
-                            <li className="list-group-item">
-                                <i className="bi bi-heart"></i> Люблю книги,
-                                музыку и Фронтенд
-                            </li>
-                            <li className="list-group-item">
-                                <i className="bi bi-people"></i> Владею
-                                Корейским(TOPIK II) и Английским(A2)
-                            </li>
-                        </ul>
-
+                    <p className="fst-normal">Несколько фактов обо мне:</p>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <i className="bi bi-house-door"></i> Живу в
+                            Санкт-Петербурге
+                        </li>
+                        <li className="list-group-item">
+                            <i className="bi bi-lightbulb"></i> Учусь фронтенду
+                        </li>
+                        <li className="list-group-item">
+                            <i className="bi bi-heart"></i> Люблю книги, музыку
+                            и Фронтенд
+                        </li>
+                        <li className="list-group-item">
+                            <i className="bi bi-people"></i> Владею
+                            Корейским(TOPIK II) и Английским(A2)
+                        </li>
+                    </ul>
                     <div className={aboutStyles.stack}>
                         <h5>Мой стэк:</h5>
                         {stack.map((item) => (
-                            <span className={stacklItemStyles} key={item}>{item}</span>
+                            <span className={stacklItemStyles} key={item}>
+                                {item}
+                            </span>
                         ))}
                     </div>
-
                     <p className="fst-normal">
-                        В последние годы я работала по другой специальности. Я решила сменить профессию,
-                        потому что считаю, что работа должна приносить удовольствие.
-                        Для того, чтобы сменить профессию я решила пойти на курсы &quot;Яндекс практикум&quot;, где
-                        изучила основы разработки и на курсы школы Владилена Минина &quot;Result School&quot; для укрепления знаний и
-                        изучения новых технологий.
-                        Мне интересно направление frontend разработки, потому что сразу можно видеть результат
-                        на экране.
+                        Сейчас работаю в компании, где разрабатываю проекты в
+                        команде из 8 человек, используя Vue/Vuex/TypeScript.
                     </p>
-                    <p className="fst-normal"> Остались вопросы? Свяжитесь со мной любым удобным способом: </p>
+                    <p className="fst-normal">
+                        Предпочитаю делать сложные и интересные задачи, т.к.
+                        хочу развиваться как разработчик.(понимаю, что бывают и
+                        односложные задачи - куда уж без этого). Для изучения
+                        технологий я читаю книги (напр. "Выразительный
+                        JavaScript", "Грокаем алгоритмы" и др.), читаю статьи на
+                        хабре, смотрю обучающие видео на ютуб(напр. ulbiTV,
+                        Владилен Минин, АйТи Синяк и др.), решаю задачи на
+                        codewars и leetcode.
+                    </p>
+                    <p className="fst-normal">
+                        {" "}
+                        Остались вопросы? Свяжитесь со мной любым удобным
+                        способом:{" "}
+                    </p>
                 </div>
             </div>
-
         </div>
     );
 };
