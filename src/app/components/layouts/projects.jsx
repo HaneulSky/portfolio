@@ -34,6 +34,7 @@ const Projects = () => {
                         <a
                             href="https://github.com/HaneulSky/my-blog-vueTs"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             репозитории.
                         </a>
