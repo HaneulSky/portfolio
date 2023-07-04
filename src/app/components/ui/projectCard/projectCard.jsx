@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import projectCardStyles from "./projectCard.module.css";
-console.log(projectCardStyles.text);
 
 const ProjectCard = ({ image, alt, children, link, page }) => {
     const cardClasses = `card shadow ${projectCardStyles.card}`;
