@@ -47,7 +47,7 @@ const Contacts = () => {
             </li>
             <li className={contactsStyle.contact}>
                 <a
-                    href="https://drive.google.com/file/d/11tLL7SYF8Ggcmcx-9t7d0mXmf1wYshl9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1XG6DFFAscOX7GVtfcdKMz2zRGOq9Ibsg/view?usp=sharing"
                     role="button"
                     className="btn btn-light "
                     target="_blank"
